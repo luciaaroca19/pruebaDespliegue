@@ -14,7 +14,7 @@ public class AreaCirculo {
         String entrada;
 
         // Entrada(radio)
-        System.out.println("Escribe el valor del radio: ");
+        System.out.println("Valor del radio: ");
         entrada = bufer.readLine();
         radio = Double.parseDouble(entrada);
 
@@ -22,6 +22,6 @@ public class AreaCirculo {
         area = PI * radio * radio;
 
         // Salida(area)
-        System.out.println("El área del círculo es: " + area );
+        System.out.println("Area del circulo: " + area );
     }
 }
